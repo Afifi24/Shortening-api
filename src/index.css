@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+    --container-width-md:80%;
+    --container-width-sm:90%;
+    --container-width-xs:95%;
+    --Cyan: hsl(180, 66%, 49%);
+    --gyan: hsl(180, 39%, 10%);
+    --Dark-Violet: hsl(257, 27%, 26%);
+
+
+    --Gray: hsl(0, 0%, 75%);
+    --Grayish-Violet: hsl(257, 7%, 63%);
+    --Very-Dark-Blue: hsl(255, 11%, 22%);
+    --Very-Dark-Violet: hsl(260, 8%, 14%);
+
+}
+.shorten{
+    background-image: url('../src/images/bg-shorten-desktop.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
