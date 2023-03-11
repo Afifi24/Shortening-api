@@ -22,3 +22,25 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+@media(max-width:648px){
+    .shorten{
+        background-image: url('../src/images/bg-shorten-mobile.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+.boost{
+    background-image: url('../src/images/bg-boost-desktop.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media(max-width:648px){
+    .boost{
+        background-image: url('../src/images/bg-boost-mobile.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

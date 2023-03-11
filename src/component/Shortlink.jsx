@@ -60,23 +60,23 @@ const Shortlink = () => {
         <h2 className='font-bold text-2xl md:text-4xl'>advanced statistics</h2>
       <p className='max-w-md text-center leading-7'style={{color: 'var(--Gray)'}}>Track how your links are performing across the web with our advanced statistics dashboard.</p>
       </div>
-      <div className=' pt-32 w-widthsm flex flex-col text-center md:text-left gap-20 md:gap-4   md:w-widthmd mx-auto md:flex-row'>
-         <div className='flex flex-col h-fit gap-4 bg-white rounded-md shadow-sm relative p-8 md:-mt-10 ' id="card">
+      <div className=' pt-32 w-widthsm pb-20 flex flex-col text-center md:text-left gap-20 md:gap-4   md:w-widthmd mx-auto md:flex-row'>
+         <div className='flex flex-col w-fit h-fit z-10   gap-4  bg-white rounded-md shadow-sm relative p-8 md:-mt-10 ' id="card">
           <div className='absolute -top-12 left-1/2 -translate-x-2/4 md:left-1/4 md:-translate-x-1/4 flex items-center justify-center rounded-full h-20 w-20 bg-slate-500'>
           <img className='' src={brand}  alt="" />
           </div>
          <h2 className='font-bold mt-10'>Brand Recognition</h2>
         <p className='leading-7' style={{color: 'var(--Gray)'}}>Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil confidence in your content.</p>
          </div>
-         <div className='flex flex-col h-fit gap-4 bg-white rounded-md shadow-sm relative p-8 ' id="card">
+         <div className='flex flex-col w-fit h-fit gap-4 bg-white rounded-md shadow-sm relative p-8 ' id="card">
           <div className='absolute md:left-1/4 md:-translate-x-1/4 -top-12 left-1/2 -translate-x-2/4 flex items-center justify-center rounded-full h-20 w-20 bg-slate-500'>
           <img className='' src={details}  alt="" />
           </div>
          <h2 className='font-bold mt-10'>Detailed Records</h2>
         <p className='leading-7' style={{color: 'var(--Gray)'}}>Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
          </div>
-         <div className='flex flex-col h-fit md:mt-10 gap-4 bg-white rounded-md shadow-sm relative p-8' id="card">
-          <div className='absolute md:left-1/4 md:-translate-x-1/4 -top-12 left-1/2 -translate-x-2/4 flex items-center justify-center rounded-full h-20 w-20 bg-slate-500'>
+         <div className='flex flex-col w-fit  h-fit md:mt-10 gap-4 bg-white rounded-md shadow-sm relative p-8  ' id="card">
+          <div className='absolute md:left-1/4 md:-translate-x-1/4  -top-12 left-1/2 -translate-x-2/4 flex items-center justify-center rounded-full h-20 w-20 bg-slate-500'>
           <img className='' src={fully}  alt="" />
           </div>
          <h2 className='font-bold mt-10'>Fully Customizable</h2>
